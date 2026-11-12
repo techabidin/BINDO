@@ -1,0 +1,4 @@
+impor math
+dari pathlib impor Path
+cetak("Akar 144:", math.sqrt(144))
+cetak("Folder:", Path(".").resolve())

@@ -1,0 +1,17 @@
+cetak("=== KALKULATOR BINDO ===")
+a = desimal(masukan("Angka pertama: "))
+b = desimal(masukan("Angka kedua: "))
+pilihan = masukan("Operasi (+, -, *, /): ")
+jika pilihan == "+":
+    cetak("Hasil:", a + b)
+jika_lain pilihan == "-":
+    cetak("Hasil:", a - b)
+jika_lain pilihan == "*":
+    cetak("Hasil:", a * b)
+jika_lain pilihan == "/":
+    jika b != 0:
+        cetak("Hasil:", a / b)
+    selain:
+        cetak("Tidak bisa membagi dengan nol.")
+selain:
+    cetak("Operasi tidak dikenal.")

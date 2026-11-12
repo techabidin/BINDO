@@ -1,0 +1,8 @@
+kelas Pengguna:
+    fungsi __init__(diri, nama):
+        diri.nama = nama
+    fungsi sapa(diri):
+        kembalikan "Halo, " + diri.nama
+
+pengguna = Pengguna("BINDO")
+cetak(pengguna.sapa())
