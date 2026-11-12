@@ -1,8 +1,7 @@
 # BINDO v2.0 — Bahasa Pemrograman Indonesia
+BINDO adalah proyek bahasa pemrograman dengan sintaks berbahasa Indonesia yang dikembangkan oleh 'Abidin.'
 
-BINDO adalah bahasa dengan gaya sintaks Indonesia yang diterjemahkan berdasarkan token ke Python lalu dijalankan oleh runtime Python. Paket ini menyediakan CLI `bindo`, ekstensi `.bindo`, pemeriksaan sintaks, penerjemahan ke Python, REPL sederhana, contoh OOP, dan penggunaan library Python.
-
-**Status:** eksperimental. Ini bukan implementasi ulang atau compiler native Python. Kompatibilitas mengikuti versi Python yang terpasang. Nama-nama di kamus terjemahan menjadi identifier khusus BINDO.
+BINDO dirancang untuk memudahkan pengguna menulis kode menggunakan istilah Bahasa Indonesia dan menjalankan program melalui runtime Python.
 
 ## Kebutuhan
 - Python 3.10 atau lebih baru
